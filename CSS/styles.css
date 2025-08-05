@@ -1,0 +1,50 @@
+body {
+  background: #66d552;
+  min-height: 100vh;
+}
+
+#contactList .list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button.delete-btn {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.5rem;
+}
+
+#contactList .edit-btn {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  background: #007bff;
+  color: #fff;
+  border: none;
+}
+
+#contactList .save-btn {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  background: #28a745;
+  color: #fff;
+  border: none;
+}
+
+#contactList .cancel-btn {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.5rem;
+  background: #6c757d;
+  color: #fff;
+  border: none;
+}
+
+#contactList input.edit-name,
+#contactList input.edit-phone {
+  display: inline-block;
+  max-width: 140px;
+  margin-right: 8px;
+  font-size: 0.95rem;
+  padding: 0.1rem 0.3rem;
+}
